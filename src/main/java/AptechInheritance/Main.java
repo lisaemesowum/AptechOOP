@@ -4,14 +4,57 @@ package AptechInheritance;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+//        Students stud1 = new Students("1", "Adebayo", "Micheal", 12, "10101234", Department.BackEnd);
+//
+//        System.out.println(stud1.studentDetail());
+//
+////        Manager manager1 = new Manager();
+//        String[] team = {"Amarachi", "lisa"};
+//
+//        Manager manager1 = new Manager("M01", "John", "Smith", 40, team);
+//        System.out.println(manager1.managerDetails());
+//
+//        // Later, use setter to update team
+//        String[] newTeam = {"Alice", "Bob", "Charlie", "Diana"};
+//        manager1.setTeamName(newTeam);
+//
+//        System.out.println("\nAfter update:");
+//       System.out.println(manager1.managerDetails());
+//====================================================================================================================================================================================
+
+//for inheritance vehicle
+        Car1 car = new Car1();
+//        car.stop();
+        Bicycle bike = new Bicycle();
+//        System.out.println(car.speed);
+        System.out.println(car.doors);
+        System.out.println(bike.pedals);
+
+//=====================================================================================================================================================================================================
+
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+
+        dog.eat();
+        cat.speak();
+        dog.speak();
+
+//   grandparent and parent with child
+        System.out.println(dog.isAlive);
+        System.out.println(cat.isAlive);
+
+plant Plant = new plant();
+Plant.photosynthesize();
+
+
+
+
+
+
     }
+
+
+
+
 }
