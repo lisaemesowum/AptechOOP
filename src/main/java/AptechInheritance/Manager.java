@@ -5,6 +5,7 @@ public class Manager extends Employees {
     private String[] teamName;
 
     //create a Constructor
+
     public Manager  (  String id, String firstName, String lastName, int age,  String[] teamName) {
         super (id, firstName, lastName , age);
         this.teamName = teamName;
