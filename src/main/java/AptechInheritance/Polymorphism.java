@@ -21,5 +21,11 @@ public class Polymorphism {
         System.out.println(poly.addition(2, 4));
         System.out.println(poly.addition(3, 6.8));
         System.out.println(poly.addition(2,6,8,10));
+
+
+
+
     }
 }
+
+//inplemt any polymorphism
