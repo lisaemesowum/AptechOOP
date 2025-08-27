@@ -24,6 +24,7 @@ public class Car {
       this.setyear(year);
   }
 
+
 //    Getter method
 // getter method in Java is a method that is used to access (or get)
 // the value of a private field (variable) in a class.

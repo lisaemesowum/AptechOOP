@@ -1,5 +1,4 @@
 package AptechInheritance;
 
-public class BankAccounts {
-
+public class AbstracBike {
 }

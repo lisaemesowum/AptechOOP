@@ -1,5 +1,6 @@
 package AptechInheritance;
 
+//this is a compile time polymorphism in the type that's Static
 public class Polymorphism {
     public int addition(int a , int b){
         return a + b;

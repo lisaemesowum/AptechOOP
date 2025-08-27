@@ -20,7 +20,22 @@ public abstract class AbstractionHealthCare {
     public void clockin(){
         System.out.println(name + "clocked in");
     }
+
     public String getStaffId(){
         return  StaffId;
+    }
+
+
+    public static void main(String[] args){
+
+        AbstractionHealthCare doctor =  new AbsctractionDoctor("lisa ", "AOO1");
+        AbstractionHealthCare nurse = new AbsctractionNurse("micheal ", "BC900");
+
+        doctor.clockin();
+        doctor.performDuties();
+
+        nurse.clockin();
+        nurse.performDuties();
+
     }
 }
